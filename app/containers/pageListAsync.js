@@ -14,6 +14,12 @@ export const Event = loadable(() =>
   fallback: <Loading />,
 });
 
+// Pages
+export const OuterE = loadable(() =>
+  import('./Pages/OuterE'), {
+  fallback: <Loading />,
+});
+
 export const Contact = loadable(() =>
   import('./Pages/Contact'), {
   fallback: <Loading />,

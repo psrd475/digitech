@@ -18,7 +18,8 @@ class Contact extends Component {
                 <div className="contact-address">
                   <i className="ion-ios-location-outline" />
                   <h3>Address</h3>
-                  <address>A108 Adam Street, NY 535022, USA</address>
+                  <address>E4, Mohan Estate,New Delhi 110044</address>
+                  <address> 207, Maharana Pratap Nagar,Jaipur, Rajasthan 302012</address>
                 </div>
               </div>
               <div className="col-md-4">
@@ -26,7 +27,7 @@ class Contact extends Component {
                   <i className="ion-ios-telephone-outline" />
                   <h3>Phone Number</h3>
                   <p>
-                    <a href="tel:+155895548855">+1 5589 55488 55</a>
+                    <a href="tel:+91 9934-699-512"> +91 9934-699-512</a>
                   </p>
                 </div>
               </div>
@@ -35,7 +36,7 @@ class Contact extends Component {
                   <i className="ion-ios-email-outline" />
                   <h3>Email</h3>
                   <p>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:info@digitechvidya.com">info@digitechvidya.com</a>
                   </p>
                 </div>
               </div>

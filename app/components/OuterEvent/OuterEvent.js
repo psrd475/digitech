@@ -4,8 +4,6 @@ class OuterEvent extends Component {
   render() {
     return (
       <Fragment>
-
-
         <div>
           {/* ======= Header ======= */}
           <header id="header">
@@ -17,13 +15,20 @@ class OuterEvent extends Component {
                   <img src="assets/img/logo.png" alt title />
                 </a>
               </div>
-              <nav id="nav-menu-container">
+              <div id="logo" className="pull-right">
+                {/* Uncomment below if you prefer to use a text logo */}
+                {/* <h1><a href="#intro">The<span>Event</span></a></h1>*/}
+                {/* <a href="#!" className="scrollto  buy-tickets" >
+                  Buy Tickets
+                </a> */}
+                <button type="submit">Subscribe</button>
+              </div>
+              {/* <nav id="nav-menu-container">
                 <ul className="nav-menu">
                   <li className="menu-active">
                     <a href="index.html">Home</a>
                   </li>
-                  <li>
-                    <a href="#about">About</a>
+                  <li>                    <a href="#about">About</a>
                   </li>
                   <li>
                     <a href="#speakers">Speakers</a>
@@ -50,13 +55,13 @@ class OuterEvent extends Component {
                     <a href="#buy-tickets">Buy Tickets</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
               {/* #nav-menu-container */}
             </div>
           </header>
           {/* End Header */}
           {/* ======= Intro Section ======= */}
-          <section id="intro">
+          {/* <section id="intro">
             <div className="intro-container" data-aos="zoom-in" data-aos-delay={100}>
               <h1 className="mb-4 pb-0">
                 The Annual
@@ -76,7 +81,7 @@ class OuterEvent extends Component {
                 About The Event
       </a>
             </div>
-          </section>
+          </section> */}
           {/* End Intro Section */}
           <main id="main">
             {/* ======= About Section ======= */}

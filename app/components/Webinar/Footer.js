@@ -67,13 +67,15 @@ class Footer extends Component {
                   <div className="col-lg-3 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
                     <p>
-                      A108 Adam Street <br />
-              New York, NY 535022
+                      E4, Mohan Estate,<br />
+              New Delhi 110044
               <br />
-              United States <br />
-                      <strong>Phone:</strong> +1 5589 55488 55
+              207, Maharana Pratap Nagar,
+              <br />Jaipur, Rajasthan 302012 <br />
+              India<br />
+                      <strong>Phone:</strong> +91 9934-699-512
               <br />
-                      <strong>Email:</strong> info@example.com
+                      <strong>Email:</strong> info@digitechvidya.com
               <br />
                     </p>
                     <div className="social-links">
@@ -108,7 +110,7 @@ class Footer extends Component {
   Licensing information: https://bootstrapmade.com/license/
   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
 */}
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://digitechvidya.com/">DANZO TECHNOLOGY</a>
               </div>
             </div>
           </footer>

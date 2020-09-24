@@ -10,7 +10,7 @@ class Faq extends Component {
         <section id="faq">
           <div className="container" data-aos="fade-up">
             <div className="section-header">
-              <h2>F.A.Q </h2>
+              <h2>Topic </h2>
             </div>
             <div
               className="row justify-content-center"
