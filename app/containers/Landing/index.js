@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import {
   Banner, Header, Review, PageSeperator, Card, Paths, CardGroup, Feedback, Footer, AlertBox
 } from 'Components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 class Landing extends React.Component {
@@ -10,6 +12,9 @@ class Landing extends React.Component {
     this.state = {
       toggle: true
     }
+  }
+  componentDidMount() {
+    AOS.init();
   }
   render() {
     return (
@@ -20,14 +25,15 @@ class Landing extends React.Component {
         <Banner />
         <Review />
         <div className="page-section border-bottom-2">
-          <div className="container page__container">
+          <div className="container page__container" data-aos="fade-up">
             <PageSeperator name="TRENDING COURSES" />
             <Card />
 
             <div className="posts-cards border-bottom-2">
               <div className="card posts-card mb-0">
                 <div className="posts-card__content d-flex align-items-center flex-wrap">
-                  <img src="/images/path/access.png" className="avatar-img rounded" alt="Post" />
+                  <img src="/images/path/access.png" className="avatar-img rounded" alt="Post" data-aos="zoom-in"
+                    data-aos-delay={100} />
                 </div>
               </div>
             </div>
@@ -35,7 +41,7 @@ class Landing extends React.Component {
         </div>
 
         <div className="page-section border-bottom-2">
-          <div className="container page__container">
+          <div className="container page__container" data-aos="fade-up">
             <div className="page-section ">
               <div className="container page__container">
                 <PageSeperator name="UPCOMING COURSE" />
@@ -46,7 +52,7 @@ class Landing extends React.Component {
         </div>
 
         <div className="page-section border-bottom-2">
-          <div className="container page__container">
+          <div className="container page__container" data-aos="fade-up">
             <div className="page-section ">
               <div className="container page__container">
                 <PageSeperator name="EVENT, NEWS & HACKATHON" />
@@ -57,7 +63,7 @@ class Landing extends React.Component {
         </div>
 
         <div className="page-section border-bottom-2">
-          <div className="container page__container">
+          <div className="container page__container" data-aos="fade-up">
             <div className="page-section">
               <div className="container page__container">
                 <div className="page-headline text-center">
@@ -65,7 +71,8 @@ class Landing extends React.Component {
                 </div>
                 <div className="card posts-card mb-0">
                   <div className="posts-card__content d-flex align-items-center flex-wrap">
-                    <img src="/images/path/hiring.png" className="avatar-img rounded" alt="Post" />
+                    <img src="/images/path/hiring.png" className="avatar-img rounded" alt="Post" data-aos="zoom-in"
+                      data-aos-delay={100} />
                   </div>
                 </div>
 
@@ -76,7 +83,7 @@ class Landing extends React.Component {
 
 
         <div className="page-section border-bottom-2">
-          <div className="container page__container">
+          <div className="container page__container" data-aos="fade-up">
             <div className="page-section">
               <div className="container page__container">
                 <div className="page-headline text-center">
@@ -92,9 +99,10 @@ class Landing extends React.Component {
           </div>
         </div >
 
-        <div>
+        <div >
           {
-            this.state.toggle ? <div className="form-popup" >
+            this.state.toggle ? <div className="form-popup" data-aos="zoom-in"
+              data-aos-delay={800}>
               <form className="form-container">
                 <span className="open-button1">Drop us a Query</span>
 

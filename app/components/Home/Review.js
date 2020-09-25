@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const review = [
   {
@@ -18,7 +20,9 @@ const review = [
   }
 ]
 class Review extends Component {
-
+  componentDidMount() {
+    AOS.init();
+  }
   render() {
     const rev = review.map((item, index) => {
       return (
@@ -37,7 +41,8 @@ class Review extends Component {
     })
     return (
       <Fragment>
-        <div>
+        <div data-aos="zoom-in"
+          data-aos-delay={100}>
           <div className="bg-white border-bottom-2 py-16pt ">
             <div className="container page__container">
               <div className="row align-items-center">

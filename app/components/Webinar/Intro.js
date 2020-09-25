@@ -1,6 +1,11 @@
 import React, { Component, Fragment } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Intro extends Component {
+  componentDidMount() {
+    AOS.init();
+  }
   render() {
     return (
       <Fragment>

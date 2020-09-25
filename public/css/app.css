@@ -26085,3 +26085,49 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 
+
+
+.bg-landing{
+    background-color: #303956;
+    height: 90px;
+}
+.logo{
+    height: 30px;
+    margin: 20px;
+
+}
+             
+.order {
+    transition: all 0.3s ease;
+    outline: none !important;
+    margin: 10px !important;
+    position: absolute;
+    cursor: pointer !important;
+    padding: 9px 20px;
+    text-align: center;
+    opacity: 1;
+    background: #f82249 !important;
+    color: #fff;
+    font-size: 14px !important;
+    border-radius: 50px !important;
+    -webkit-animation: bounce .3s infinite alternate;
+    -moz-animation: bounce .3s infinite alternate;
+    animation: bounce .3s infinite alternate;
+}
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.2); }
+}
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
