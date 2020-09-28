@@ -63,7 +63,7 @@ class ContactForm extends Component {
             </button>
           </div>
           <div className="col-12 col-md-12 pl-0">
-            <span className style={{ color: "green" }} />
+            <span className="" style={{ color: "green" }} />
           </div>
         </form>
 

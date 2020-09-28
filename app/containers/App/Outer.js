@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import {
-  Event, OuterE
+  Event, OuterE, AI
 } from '../pageListAsync';
 
 class Outer extends Component {
@@ -10,6 +10,7 @@ class Outer extends Component {
       <Switch>
         <Route exact path="/event" component={Event} />
         <Route exact path="/eventO" component={OuterE} />
+        <Route exact path="/ai" component={AI} />
       </Switch>
     );
   }

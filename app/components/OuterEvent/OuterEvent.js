@@ -18,9 +18,9 @@ class OuterEvent extends Component {
         <Navbar sticky="top" bg="dark">
           <Navbar.Brand href="#home">
             <img
-              src="images/logo.png"
+              src="/images/Digitech Vidya_logo_1.png"
               className="logo"
-              alt="React Bootstrap logo"
+              alt="Digitech Vidhya"
             /></Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
@@ -51,14 +51,14 @@ class OuterEvent extends Component {
               </Col>
               <Col xs={12} md={4}>
                 <div data-aos="zoom-in" data-aos-delay={100} >
-                  <h1 className="mb-4 pb-0" style={{ margin: '10px' }}>
+                  <h2 className="mb-4 pb-0" style={{ margin: '10px' }}>
                     - Free -
                     <br />
-                    <span style={{ color: '#f82249' }}>AI</span> Webinar
-                    </h1>
+                    <span style={{ color: '#e27b14' }}>Machine Learning with python Code</span> Walkthrough.
+                  </h2>
                 </div>
 
-                <h4 style={{ margin: '20px' }}>We Will Show You The Expert Methods - <span style={{ color: '#f82249' }}>Absolutely FREE!</span></h4>
+                <h4 style={{ margin: '20px' }}>We Will Show You The Expert Methods - <span style={{ color: '#e27b14' }}>Absolutely FREE!</span></h4>
                 <Button variant="outline-light" className="order nav-item"
                   type="button"
                   // className="btn"
@@ -76,7 +76,7 @@ class OuterEvent extends Component {
           <div className="container" data-aos="fade-up" data-aos-delay={100} >
             <div className="section-header">
               <h2>About</h2>
-              <p>Artificial intelligence and Robotics
+              <p>Machine Learning with python Code
       </p>
             </div>
             <Container>
@@ -114,7 +114,7 @@ class OuterEvent extends Component {
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h2>Topic</h2>
-              <p>Artificial intelligence and Robotics
+              <p>Machine Learning with python Code
       </p>
             </div>
             <div className="row">

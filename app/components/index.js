@@ -20,6 +20,8 @@ export Feedback from './Home/Feedback';
 export OuterEvent from './OuterEvent/OuterEvent';
 export Webinar from './Webinar';
 export ContactPage from './ContactPage';
+export AIHeader from './AI/AIHeader';
+export GrabNow from './Modal/GrabNow'
 // export Contact from './Contact/Contact';
 // export Register from './Forms/Register';
 // export AgencyRegister1 from './Forms/AgencyRegister1';

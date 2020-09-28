@@ -24,6 +24,12 @@ export const Contact = loadable(() =>
   import('./Pages/Contact'), {
   fallback: <Loading />,
 });
+
+export const AI = loadable(() =>
+  import('./Pages/AI'), {
+  fallback: <Loading />,
+});
+
 // export const ForgetPassword = loadable(() =>
 //   import('./Pages/ForgetPassword'), {
 //   fallback: <Loading />,

@@ -45,13 +45,13 @@
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #e27b14;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #e27b14;
 }
 
 #buy-tickets #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
@@ -63,13 +63,13 @@
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #e27b14;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #e27b14;
 }
 
 /* Sections Header
@@ -86,7 +86,7 @@
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #e27b14;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -160,7 +160,7 @@
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #e27b14;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {

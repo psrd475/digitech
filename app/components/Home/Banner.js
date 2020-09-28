@@ -11,7 +11,7 @@ class Banner extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/853.jpg"
+              src="/images/AIML.jpeg"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -20,7 +20,7 @@ class Banner extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/31958.jpg"
+              src="/images/AIML2.jpeg"
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -29,8 +29,17 @@ class Banner extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/18295.jpg"
+              src="/images/DL.jpeg"
               alt="Third slide"
+            />
+            <Carousel.Caption>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/images/AIDS.jpeg"
+              alt="Forth slide"
             />
             <Carousel.Caption>
             </Carousel.Caption>
