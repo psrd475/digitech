@@ -26,7 +26,7 @@ class CardGroup extends Component {
   render() {
     const cardGroup = card.map((item, index) => {
       return (
-        <div className="col-md-6 col-lg-4 col-xl-3 card-group-row__col" key={index}>
+        <div className="col-md-6 col-lg-41 col-xl-3 card-group-row__col" key={index}>
           <div
             className="card card-sm card--elevated p-relative o-hidden overlay overlay--primary-dodger-blue js-overlay card-group-row__card"
             data-toggle="popover"

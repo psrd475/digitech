@@ -7,7 +7,7 @@ const card = [
     title: ' Artificial Intelligence',
   },
   {
-    bgimg: '/images/path/logo2.png',
+    bgimg: '/images/dm.jpeg',
     view: '924',
     title: ' Digital Marketing',
   },
@@ -21,7 +21,7 @@ class Card extends Component {
   render() {
     const crd = card.map((item, index) => {
       return (
-        <div className="col-md-6 col-lg-4 card-group-row__col" key={index}>
+        <div className="col-md-61 col-lg-4  col-sm-31 card-group-row__col" key={index}>
           <div className="card card--elevated posts-card-popular overlay card-group-row__card">
             <img
               src={item.bgimg}
