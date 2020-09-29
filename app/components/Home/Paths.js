@@ -2,26 +2,31 @@ import React, { Component, Fragment } from 'react';
 
 const path = [
   {
-    img: '/images/path/react_40x40@2x.png',
-    name: 'React Native',
-    lesson: '15 courses',
+    img: '/images/tablu.png',
+    name: 'Tableau',
+    lesson: 'Free Courses',
   },
   {
-    img: '/images/path/devops_40x40%402x.png',
-    name: 'Dev Ops',
-    lesson: '18 courses',
+    img: '/images/excel.jpeg',
+    name: 'Microsoft Excel',
+    lesson: 'Free Courses',
   },
   {
-    img: '/images/path/redis_40x40@2x.png',
-    name: 'Redis',
-    lesson: '18 courses',
+    img: '/images/reinforcementlearning.png',
+    name: 'Reinforcement Learning',
+    lesson: 'Paid Courses',
+  },
+  {
+    img: '/images/interview.jpeg',
+    name: 'Interviews Preparation',
+    lesson: 'Free Courses',
   }
 ]
 class Paths extends Component {
   render() {
     const pth = path.map((item, index) => {
       return (
-        <div className="col-sm-4 card-group-row__col" key={index}>
+        <div className="col-sm-3 card-group-row__col" key={index}>
           <div
             className="card js-overlay card-sm overlay--primary-dodger-blue stack stack--1 card-group-row__card"
             data-toggle="popover"
@@ -30,17 +35,17 @@ class Paths extends Component {
             <div className="card-body d-flex flex-column">
               <div className="d-flex align-items-center">
                 <div className="flex">
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex ">
                     <div className="rounded mr-12pt z-0 o-hidden">
-                      <div className="overlay">
-                        <img
-                          src={item.img}
-                          width={40}
-                          height={40}
-                          alt="React Native"
-                          className="rounded"
-                        />
-                        <span className="overlay__content overlay__content-transparent">
+                      {/* <div className="overlay"> */}
+                      <img
+                        src={item.img}
+                        width={40}
+                        height={40}
+                        alt={item.name}
+                        className="rounded"
+                      />
+                      {/* <span className="overlay__content overlay__content-transparent">
                           <span className="overlay__action d-flex flex-column text-center lh-1">
                             <small
                               className="h6 small text-white mb-0"
@@ -49,13 +54,13 @@ class Paths extends Component {
                               80%
                           </small>
                           </span>
-                        </span>
-                      </div>
+                        </span> */}
+                      {/* </div> */}
                     </div>
                     <div className="flex">
                       <div className="card-title">{item.name}</div>
                       <p className="flex text-black-50 lh-1 mb-0">
-                        <small>18 courses</small>
+                        <small>{item.lesson}</small>
                       </p>
                     </div>
                   </div>
@@ -79,10 +84,10 @@ class Paths extends Component {
             <div className="media">
               <div className="media-left mr-12pt">
                 <img
-                  src="/images/path/react_40x40@2x.png"
+                  src={item.img}
                   width={40}
                   height={40}
-                  alt="Angular"
+                  alt={item.name}
                   className="rounded"
                 />
               </div>

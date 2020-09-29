@@ -192,6 +192,7 @@ html {
 [dir="ltr"] svg {
     vertical-align: middle;
 }
+
 [dir="ltr"] svg {
     overflow: hidden;
 }

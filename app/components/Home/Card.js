@@ -4,7 +4,7 @@ const card = [
   {
     bgimg: '/images/path/logo1.jpeg',
     view: '327',
-    title: ' Artificial Intelligence',
+    title: 'Master in Applied AI',
   },
   {
     bgimg: '/images/dm.jpeg',
@@ -12,7 +12,7 @@ const card = [
     title: ' Digital Marketing',
   },
   {
-    bgimg: '/images/path/logo3.png',
+    bgimg: '/images/english.jpeg',
     view: '527',
     title: ' English Language',
   },

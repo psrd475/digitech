@@ -4,17 +4,17 @@ import 'aos/dist/aos.css';
 
 const review = [
   {
-    icon: '/images/cloud.png',
+    icon: '/images/google.png',
     title: '580+ Reviews',
     subtitle: '⭐⭐⭐'
   },
   {
-    icon: '/images/android.png',
+    icon: '/images/fb1.png',
     title: '8,800+ Reviews',
     subtitle: '⭐⭐⭐⭐⭐'
   },
   {
-    icon: '/images/youtube.png',
+    icon: '/images/linkedin.jpeg',
     title: '1,937+ Reviews',
     subtitle: '⭐⭐⭐⭐'
   }
@@ -36,6 +36,7 @@ class Review extends Component {
               alt=""
               width="40px"
               height="40px"
+              style={{ marginRight: '5px' }}
             />
             <div className="flex">
               <span className="text" data-position={1}>{item.title}</span>
