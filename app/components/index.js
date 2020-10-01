@@ -1,3 +1,5 @@
+const { default: AIHeader } = require("./AI/AIHeader");
+
 // Loading
 export Loading from './Loading';
 
@@ -15,13 +17,16 @@ export PageSeperator from './Home/PageSeperator';
 export Card from './Home/Card';
 export Paths from './Home/Paths';
 export CardGroup from './Home/CardGroup';
+export Hire from './Home/Hire';
 export Feedback from './Home/Feedback';
 
 export OuterEvent from './OuterEvent/OuterEvent';
 export Webinar from './Webinar';
 export ContactPage from './ContactPage';
+export AIBanner from './AI/AIBanner';
 export AIHeader from './AI/AIHeader';
-export GrabNow from './Modal/GrabNow'
+
+export GrabNow from './Modal/GrabNow';
 // export Contact from './Contact/Contact';
 // export Register from './Forms/Register';
 // export AgencyRegister1 from './Forms/AgencyRegister1';

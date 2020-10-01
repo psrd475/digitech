@@ -9,7 +9,7 @@ const review = [
     subtitle: '⭐⭐⭐'
   },
   {
-    icon: '/images/fb1.png',
+    icon: '/images/fb.png',
     title: '8,800+ Reviews',
     subtitle: '⭐⭐⭐⭐⭐'
   },

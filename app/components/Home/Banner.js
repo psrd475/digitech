@@ -12,11 +12,16 @@ class Banner extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
+                src="/images/dm.jpg"
+                alt=" slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
                 src="/images/AIML.jpeg"
                 alt="First slide"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -24,8 +29,6 @@ class Banner extends Component {
                 src="/images/AIML2.jpeg"
                 alt="Second slide"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -33,8 +36,7 @@ class Banner extends Component {
                 src="/images/DL.jpeg"
                 alt="Third slide"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
+
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -42,8 +44,6 @@ class Banner extends Component {
                 src="/images/AIDS.jpeg"
                 alt="Forth slide"
               />
-              <Carousel.Caption>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </section>

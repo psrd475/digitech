@@ -13,7 +13,15 @@ const styles = {
 
 function Loading(props) {
   const { classes } = props;
-  return (<CircularProgress className={classes.circularProgress} size={90} thickness={1} color="secondary" />);
+  return (
+    <div className="preloader">
+      <div className="sk-double-bounce">
+        <div className="sk-child sk-double-bounce1"></div>
+        <div className="sk-child sk-double-bounce2"></div>
+      </div>
+    </div>
+  )
+  // return (<CircularProgress className={classes.circularProgress} size={90} thickness={1} color="secondary" />);
 }
 
 Loading.propTypes = {

@@ -13,8 +13,8 @@ class Header extends Component {
           <Navbar.Brand href="#home">
             <img
               src="/images/Digitech Vidya_fevicon_32 x 32 pixel.png"
-              width="30"
-              height="30"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
               alt="Digitech Vidhya"
             />
@@ -25,7 +25,7 @@ class Header extends Component {
               <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Courses" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Digital Marketing</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Artificial Intelligence</NavDropdown.Item>
+                <NavDropdown.Item href="/ai">Artificial Intelligence</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">BI and Visualization</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Data Science</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Big Data</NavDropdown.Item>
@@ -49,7 +49,7 @@ class Header extends Component {
                 <NavDropdown.Item href="#action/3.2">Team</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Person Bio</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/website/contact">Contact us</Nav.Link>
+              <Nav.Link href="/contact">Contact us</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" style={{ marginTop: "5px" }} />

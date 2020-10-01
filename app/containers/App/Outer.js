@@ -8,9 +8,9 @@ class Outer extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/event" component={Event} />
-        <Route exact path="/eventO" component={OuterE} />
-        <Route exact path="/ai" component={AI} />
+        <Route exact path="/webinar/event" component={Event} />
+        <Route exact path="/webinar/eventO" component={OuterE} />
+        <Route exact path="/webinar/ai" component={AI} />
       </Switch>
     );
   }

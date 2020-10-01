@@ -1228,6 +1228,10 @@ html {
         flex: 0 0 16.6666666667%;
         max-width: 16.6666666667%;
     }
+    [dir="ltr"] .col-lg-21 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
     [dir="ltr"] .col-lg-3 {
         flex: 0 0 25%;
         max-width: 25%;
@@ -27173,7 +27177,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       .col-lg-offset-0 {
         margin-left: 0;
       }
-    }
+    
 
     @media (max-width:767px) {
       .hidden-xs {
@@ -27370,3 +27374,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .two_cards.slick-slide .course_cards_home {
       width: 46%;
     }
+
+@media (min-width: 769.98px){
+.supporter-logo {    
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0e5fa;
+    border-bottom: 1px solid #e0e5fa;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    height: 130px;
+}}
+
+
+@media (max-width: 769.98px){
+.supporter-logo {    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0e5fa;
+    border-bottom: 1px solid #e0e5fa;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    height: 80px;
+}}

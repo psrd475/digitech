@@ -12,10 +12,10 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route
-            path="/website"
-            render={() => <Website />}
+            path="/webinar"
+            render={() => <Outer />}
           />
-          <Route component={Outer} />
+          <Route component={Website} />
         </Switch>
         <NotifMessage />
       </Fragment>

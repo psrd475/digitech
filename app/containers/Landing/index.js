@@ -1,17 +1,9 @@
 import React, { Fragment } from 'react';
 import {
-  Banner, Header, Review, PageSeperator, Card, Paths, CardGroup, Feedback, Footer, AlertBox, GrabNow
+  Banner, Header, Review, PageSeperator, Card, Paths, CardGroup, Feedback, Footer, AlertBox, Hire
 } from 'Components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-import {
-  Nav, Navbar, NavDropdown, Form, FormControl, Button
-} from 'react-bootstrap'
-import {
-  Carousel
-} from 'react-bootstrap';
-
 
 class Landing extends React.Component {
   constructor() {
@@ -25,7 +17,6 @@ class Landing extends React.Component {
     AOS.init();
   }
   render() {
-    const { show, isShowing, otp } = this.state;
     return (
       <Fragment >
         <AlertBox />
@@ -81,18 +72,11 @@ class Landing extends React.Component {
                 <div className="page-headline text-center">
                   <h2>Our students have been Hired by</h2>
                 </div>
-                <div className="card posts-card mb-0">
-                  <div className="posts-card__content d-flex align-items-center flex-wrap">
-                    <img src="/images/path/hiring.png" className="avatar-img rounded" alt="Post" data-aos="zoom-in"
-                      data-aos-delay={100} />
-                  </div>
-                </div>
-
+                <Hire />
               </div>
             </div>
           </div>
         </div >
-
 
         <div className="page-section border-bottom-2">
           <div className="container page__container" data-aos="fade-up">
