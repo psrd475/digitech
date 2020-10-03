@@ -25,6 +25,8 @@ export Webinar from './Webinar';
 export ContactPage from './ContactPage';
 export AIBanner from './AI/AIBanner';
 export AIHeader from './AI/AIHeader';
+export AIUpcomingBatches from './AI/AIUpcomingBatches';
+export AICurriculum from './AI/AICurriculum';
 
 export GrabNow from './Modal/GrabNow';
 // export Contact from './Contact/Contact';

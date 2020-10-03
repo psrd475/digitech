@@ -35,7 +35,7 @@ class ContactForm extends Component {
           </div>
           <div className="form-group">
             <input
-              className="col-12 col-md-12 form-control shadow-sm"
+              className="col-12 col-md-12 form-control shadow-sm mb-2"
               id="subject"
               placeholder="Subject*"
               name="subject"
@@ -45,7 +45,7 @@ class ContactForm extends Component {
           </div>
           <div className="form-group">
             <textarea
-              className="col-12 col-md-12 form-control"
+              className="col-12 col-md-12 form-control shadow-sm mb-2"
               id="message"
               name="message"
               placeholder="Message*"

@@ -1,11 +1,12 @@
 import React, { Component, Fragment } from 'react';
-
+import AIUpcomingBatches from './AIUpcomingBatches';
 import {
   Link,
   Element,
   Events,
   scroller
 } from "react-scroll";
+import AICurriculum from './AICurriculum';
 
 class AIHeader extends Component {
   componentDidMount() {
@@ -62,14 +63,13 @@ class AIHeader extends Component {
         }
         <header id="header">
           <div className="container">
-
             <nav id="nav-menu-container">
               <ul className="nav-menu">
                 <li className="menu-active">
                   <Link
                     activeClass="active"
-                    className="home"
-                    to="home"
+                    className="upcomingbatches"
+                    to="upcomingbatches"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -81,8 +81,8 @@ class AIHeader extends Component {
                 <li>
                   <Link
                     activeClass="active"
-                    className="about"
-                    to="about"
+                    className="curriculum"
+                    to="curriculum"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -94,8 +94,8 @@ class AIHeader extends Component {
                 <li>
                   <Link
                     activeClass="active"
-                    className="topic"
-                    to="topic"
+                    className="coursedetails"
+                    to="coursedetails"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -106,8 +106,8 @@ class AIHeader extends Component {
                 <li>
                   <Link
                     activeClass="active"
-                    className="contact"
-                    to="contact"
+                    className="certification"
+                    to="certification"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -170,6 +170,17 @@ class AIHeader extends Component {
         {
           /* ======= Header End======= */
         }
+        <div>
+          <Element name="upcomingbatches" className="element" >
+            <AIUpcomingBatches />
+          </Element>
+          <Element name="curriculum" className="element">
+            <AICurriculum />
+          </Element>
+          <Element name="curriculum" className="element">
+            <AICurriculum />
+          </Element>
+        </div>
 
       </Fragment>
     );
