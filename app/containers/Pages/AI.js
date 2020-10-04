@@ -9,7 +9,6 @@ class AI extends Component {
           <AIBanner />
         </div>
         <AIHeader />
-
       </Fragment>
     );
   }

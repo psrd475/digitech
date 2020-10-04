@@ -7,6 +7,7 @@ import {
   scroller
 } from "react-scroll";
 import AICurriculum from './AICurriculum';
+import AICertificate from './AICertificate';
 
 class AIHeader extends Component {
   componentDidMount() {
@@ -177,11 +178,10 @@ class AIHeader extends Component {
           <Element name="curriculum" className="element">
             <AICurriculum />
           </Element>
-          <Element name="curriculum" className="element">
-            <AICurriculum />
-          </Element>
+          {/* <Element name="certification" className="element">
+            <AICertificate />
+          </Element> */}
         </div>
-
       </Fragment>
     );
   }

@@ -3,7 +3,7 @@ import aiCurriculum from "API/aiCurriculum";
 
 class AICurriculum extends Component {
   render() {
-    const aiCurriculumRow = aiCurriculum.map((person, index) => (
+    const aiCurriculumRow = aiCurriculum.map((item, index) => (
       <div className="accordion__item " key={index}>
         <a
           href="#"
@@ -12,16 +12,15 @@ class AICurriculum extends Component {
           data-target="#course-toc-2"
           data-parent="#parent"
         >
-          <span className="flex">{person.title}</span>
+          <span className="flex">{item.title}</span>
           <span className="accordion__toggle-icon material-icons">
             keyboard_arrow_down
           </span>
         </a>
-
-        {person.topic.map((pet, i) => (
+        {item.topic.map((itm, i) => (
           <div
-            // className={`accordion__menu collapse  ${index}`}
-            className="accordion__menu collapse show"
+            // className={`accordion__menu collapse  ${index}`} show
+            className="accordion__menu collapse "
             id="course-toc-2" key={i}
           >
             <div className="accordion__menu-link" >
@@ -29,7 +28,7 @@ class AICurriculum extends Component {
                 <i className="icon-Video_icon" />
               </span>
               <a className="flex" href="fixed-student-lesson.html">
-                {pet.subtitle}
+                {itm.subtitle}
               </a>
             </div>
           </div>
